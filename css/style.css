@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.first-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.second-header {
+    height: 200px;
+    background-color: aqua;
+
+}
+
+
+.contenitore {
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
