@@ -12,8 +12,21 @@
     flex-direction: column;
 }
 
+h2 {
+    color: white;
+}
+
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 img {
     width: 50%;
+}
+
+span {
+    color: white;
 }
 
 .first-header {
@@ -35,7 +48,7 @@ img {
 
 }
 
-.section-container1 {
+.section-container {
     max-width: 800px;
     margin: 0 auto;
 
@@ -61,4 +74,49 @@ img {
 
 .rettangoli-contenitore {
     display: flex;
+}
+
+
+
+.card {
+    width: calc(100% / 3 - 1px);
+
+    height: 100px;
+    border: 1px solid black;
+}
+
+.quadrato {
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    border: 2px solid black;
+
+}
+
+.orangequadrato {
+    width: 500px;
+
+}
+
+.contenitore {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: aqua;
+
+}
+
+.footersection {
+    height: 400px;
+    background-color: black;
+
+
+}
+
+.footerdrop {
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+
 }
