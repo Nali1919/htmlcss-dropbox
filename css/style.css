@@ -16,12 +16,14 @@ main {
     padding-top: 70px;
 }
 
+
+
 .second-header img {
     width: 100%;
     position: relative;
-    bottom: 200px;
-    left: 240px;
-    right: px;
+    bottom: 210px;
+    left: 250px;
+
 
 }
 
@@ -105,36 +107,15 @@ header a {
 .section-container {
     max-width: 600px;
     margin: 0 auto;
-
-
-
-}
-
-.secondorettangolo {
-    height: 200px;
-    width: 800px;
-    background-color: blue;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-}
-
-.primorettangolo {
-    height: 600px;
-    width: 300px;
-    background-color: blue;
-    border: 2px solid black;
-}
-
-.rettangoli-contenitore {
-    display: flex;
 }
 
 
+#monthly-pay {
+    margin: 40px 0px;
+}
 
 .card {
     width: calc(100% / 3 - 1px);
-
     height: 100px;
     border: 1px solid black;
 }
@@ -169,8 +150,97 @@ header a {
 }
 
 .footerdrop {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
     justify-content: space-around;
+
+}
+
+.rettangolo {
+    height: 600px;
+    border: 1px solid black;
+    width: calc(100% / 3 - 35px);
+    margin: 0 10px;
+    padding: 5px;
+    row-gap: 5px;
+}
+
+.rettangoli-contenitore {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.secondorettangolo {
+
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.secondorettangolocont {
+    max-width: 580px;
+    margin: 10px auto;
+}
+
+.rettangoli-contenitore span,
+h2,
+p {
+    color: black;
+}
+
+.rettangoli-contenitore hr {
+    width: 100%;
+}
+
+.singolo {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.utente {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+.cartella {
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+}
+
+.condividi {
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+}
+
+.bottonecolumn {
+    margin-top: 10px;
+}
+
+.call-to {
+    display: flex;
+    margin-top: 5px;
+}
+
+.smallhr {
+    width: 20px;
+    margin: 10px 0px;
+}
+
+.check {
+    display: flex;
+    margin: top;
+    column-gap: 2px;
+    margin-top: 5px;
+}
+
+.check i {
+    color: blue;
 
 }

@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <head>
     <meta charset="UTF-8">
@@ -54,18 +57,48 @@
             <section>
                 <div class="section-container">
                     <h1>Trova il piano business che fa per te</h1>
-                    <input type="radio">
-                    <input type="radio">
-                    <div class="rettangoli-contenitore">
-                        <div class="primorettangolo"></div>
-                        <div class="primorettangolo"></div>
-                        <div class="primorettangolo"></div>
-                    </div>
-                    <div class="secondorettangolo">
-
-                    </div>
+                    <input id="monthly-pay" type="radio" name="payment" value="mensile" />
+                    <label for="monthly-pay">Pagamento mensile</label>
+                    <input id="year-pay" type="radio" name="payment" value="annuale" />
+                    <label for="year-pay">Pagamento annuale</label>
                 </div>
+                <div class="rettangoli-contenitore ">
+                    <div class="rettangolo flex column">
+                        <div class="singolo">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Singolo</span>
+                        </div>
+                        <hr>
+                        <h2>Professional</h2>
+                        <span>&euro; 12</span>
+                        <span>/mese</span>
+                        <div class="utente"><i class="fa-solid fa-user"></i>
+                            <span>1 utente</span>
+                        </div>
+                        <div class="cartella">
+                            <i class="fa-solid fa-folder"></i>
+                            <span>Lort voluptatum quia possimus dolor cupiditate ullam modi nisi.</span>
+                        </div>
+                        <div class="condividi">
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing e</span>
+                        </div>
+                        <button class="bottonecolumn">Prova gratis per 30 giorni</button>
+                        <div class="call-to"><span>oppure</span> <a href="">acquista ora</a></div>
+                        <div class="smallhr">
+                            <hr>
+                        </div>
+                        <h5>Punti salienti del piano</h5>
+                        <div class="check">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Invia file fino a mille mega....</span>
 
+                        </div>
+                        <div class="check">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Invia file fino a mille mega....</span>
+                        </div>
+                    </div>
             </section>
             <!-- fine prima sezione -->
             <!-- inizio seconda sezione -->
