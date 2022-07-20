@@ -20,14 +20,30 @@ main {
     flex-wrap: wrap;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
+.secondorettangolo button {
+    background-color: #0061ff;
+    color: white;
+    border: 0;
+    width: 150px;
+}
+
+.secondorettangolo p {
+    margin-top: 50px;
+}
 
 .second-header img {
     width: 100%;
     position: relative;
     bottom: 280px;
     left: 250px;
+}
 
-
+.henter {
+    margin-top: 20px;
 }
 
 .text-partner {
