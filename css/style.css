@@ -27,6 +27,16 @@ main {
 
 }
 
+.text-partner {
+    justify-content: center;
+    padding: 20px;
+}
+
+.center {
+    justify-content: center;
+    padding: 5px;
+}
+
 header h1 {
     width: 300px;
 }
@@ -115,9 +125,17 @@ header a {
 }
 
 .card {
-    width: calc(100% / 3 - 1px);
-    height: 100px;
-    border: 1px solid black;
+    width: calc(100% / 3);
+    height: 500px;
+    ;
+}
+
+.card-section {
+    margin-top: 20px;
+}
+
+.card-section img {
+    width: 100%;
 }
 
 .quadrato {
@@ -157,12 +175,12 @@ header a {
 }
 
 .rettangolo {
-    height: 600px;
     border: 1px solid black;
-    width: calc(100% / 3 - 35px);
+    width: calc(100% / 3 - 20px);
     margin: 0 10px;
     padding: 5px;
     row-gap: 5px;
+
 }
 
 .rettangoli-contenitore {
@@ -173,16 +191,17 @@ header a {
 }
 
 .secondorettangolo {
-
     height: 200px;
-    display: flex;
-    flex-direction: column;
     border: 1px solid black;
 }
 
 .secondorettangolocont {
     max-width: 580px;
-    margin: 10px auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+
 }
 
 .rettangoli-contenitore span,
@@ -243,4 +262,8 @@ p {
 .check i {
     color: blue;
 
+}
+
+.secondorettangolo span {
+    color: black;
 }
