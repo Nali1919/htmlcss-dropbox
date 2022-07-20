@@ -185,18 +185,6 @@ header a {
     width: 100%;
 }
 
-.quadrato {
-    width: 250px;
-    height: 250px;
-    background-color: orange;
-    border: 2px solid black;
-
-}
-
-.orangequadrato {
-    width: 500px;
-
-}
 
 .contenitore {
     display: flex;
