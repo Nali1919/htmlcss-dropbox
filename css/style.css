@@ -238,7 +238,7 @@ footer hr {
 
 .rettangoli-contenitore {
     display: flex;
-    max-width: 600px;
+    max-width: 620px;
     margin: 0 auto;
 
 }
@@ -249,7 +249,7 @@ footer hr {
 }
 
 .secondorettangolocont {
-    max-width: 580px;
+    max-width: 600px;
     margin: 10px;
     display: flex;
     flex-direction: column;
