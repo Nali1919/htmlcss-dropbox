@@ -59,23 +59,36 @@ header img {
 }
 
 .fa-arrow-down {
-    margin-top: 15px;
+    margin-top: 5px;
     font-size: 30px;
+
 }
 
 .header-button {
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
     border: 0;
     width: 50px;
+    padding: 5px;
+    position: relative;
+    bottom: 3px;
+}
+
+.bottonecolumn {
+    background-color: #0061ff;
+    color: white;
+    border: 0;
+    padding: 10px;
+
 }
 
 .second-header button {
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
-    width: 160px;
+    width: 200px;
     border: 0;
-    padding: 2px;
+    padding: 5px;
+
 }
 
 .right-header {
@@ -117,7 +130,6 @@ span {
 .first-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px;
     line-height: 20px;
     vertical-align: middle;
